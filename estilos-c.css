@@ -1,0 +1,58 @@
+ body{
+     background-image: url("imagens/560896.jpg");
+     background-color: royalblue;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+    }
+
+   h1::first-letter{
+                   color: black;
+                   font-size: 150%;
+                 }
+
+   .nav_menu {
+              overflow: hidden;
+              background-color: black;
+              margin-right: -8px;
+              margin-left: -8px;
+              margin-top: -6px;
+            }
+
+   .nav_menu a{
+               float: left;
+               display: block;
+               color: gold;
+               padding: 10px 10px;
+               text-decoration: overline;
+              }
+
+.nav_menu a:hover{
+                  background-color: white;
+                  color: darkred;
+                }
+
+        .cont {
+               float: center;
+               padding: 10px;
+               text-align: center;
+               text-decoration: none;
+               background-color: gold;
+               text-shadow: 2px 2px 8px maroon;
+               margin-right: 25%;
+               margin-left: 25%;
+               margin-top: 5%;
+               border: 1px solid black;
+              }
+
+     .footer {
+              float: center;
+              padding: 2px;
+              text-align: center;
+              background-color: gold;
+              color: black;
+              text-shadow: 3px 3px 8px maroon;
+              border: 1px solid black;
+              margin-right: -6px;
+              margin-left: -6px;
+              margin-top: 10px;
+            }

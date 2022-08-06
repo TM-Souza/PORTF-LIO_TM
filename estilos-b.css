@@ -1,0 +1,110 @@
+* {
+   box-sizing: border-box;
+  }
+
+ body {
+      background-image: url("imagens/560896.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      }
+
+    .nav_menu {
+                overflow: hidden;
+                background-color: black;
+                margin-right: -8px;
+                margin-left: -8px;
+                margin-top: -6px;
+              }
+
+   .nav_menu a{
+                float: left;
+                display: block;
+                color: gold;
+                padding: 10px 10px;
+                text-decoration: overline;
+              }
+
+  .nav_menu a:hover{
+                    background-color: white;
+                    color: darkred;
+                  }
+
+       .header {
+                 float: right;
+                 background-color: gold;
+                 color: black;
+                 padding: 10px;
+                 text-align: center;
+                 text-decoration: none;
+                 text-shadow: 2px 2px 8px maroon;
+                 margin-right: 10px;
+                 margin-left: 10px;
+                 margin-top: 3px;
+                 border: 1px solid black;
+               }
+
+        .cont {
+                float: center;
+                padding: 10px;
+                text-align: center;
+                text-decoration: none;
+                background-color: gold;
+                text-shadow: 2px 2px 8px maroon;
+                margin-right: 20%;
+                margin-left: 20%;
+                margin-top: 10px;
+                border: 1px solid black;
+              }
+
+        .cax {
+                float: left;
+                padding: 3px;
+                text-align: center;
+                text-decoration: none;
+                background-color: gold;
+                text-shadow: 2px 2px 8px maroon;
+                margin-right: 20%;
+                margin-left: 5px;
+                margin-top: 30px;
+                border: 1px solid black;
+              }
+
+         .ol {
+                list-style-type: katakana-iroha;
+                float: left;
+                padding: 20px;
+                display: flex;
+                flex-flow: row wrap;
+                text-shadow: 3px 3px 8px black;
+                background-color: maroon;
+                border: 1px solid gold;
+                margin-right: 34%;
+                margin-left: 36%;
+                margin-top: 3%;
+              }
+
+        .mens {
+                float: center;
+                background-color: maroon;
+                padding: 8px;
+                text-align: center;
+                text-decoration: none;
+                text-shadow: 2px 2px 8px black;
+                margin-right: 31%;
+                margin-left: 31%;
+                margin-top: 23%;
+                border: 1px solid gold;
+              }
+
+     .footer {
+                float: center;
+                padding: 3px;
+                text-align: center;
+                background-color: gold;
+                color: black;
+                text-shadow: 3px 3px 8px maroon;
+                border: 1px solid black;
+                margin-right: -6px;
+                margin-left: -6px;
+                margin-top: -36px;
+              }

@@ -1,0 +1,82 @@
+ * {
+   box-sizing: border-box;
+   }
+
+   body{
+      background-image: url("imagens/560896.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-color: royalblue;
+      }
+
+   .nav_menu {
+              overflow: hidden;
+              background-color: black;
+              font-family: 'Rockwell';
+              size: 5;
+              margin-right: -8px;
+              margin-left: -8px;
+              margin-top: -6px;
+            }
+
+   .nav_menu a{
+               float: left;
+               display: block;
+               color: gold;
+               padding: 10px 10px;
+               text-decoration: overline;
+             }
+
+    .nav_menu a:hover{
+                    background-color: white;
+                    color: darkred;
+                    }
+
+        .header {
+                 float: right;
+                 background-color: gold;
+                 padding: 5px;
+                 text-align: center;
+                 text-decoration: none;
+                 text-shadow: 2px 2px 8px maroon;
+                 margin-right: 5px;
+                 margin-left: -8px;
+                 margin-top: 1px;
+                 border: 1px solid black;
+                }
+
+      .contents {
+                 float: left;
+                 padding: 10px;
+                 text-align: center;
+                 text-decoration: none;
+                 background-color: gold;
+                 text-shadow: 2px 2px 8px maroon;
+                 margin-right: 20px;
+                 margin-left: 80px;
+                 margin-top: 15%;
+                 border: 1px solid black;
+                }
+
+                      
+      .img{
+        margin-right: 60px;
+      }
+
+        .footer {
+                 float: center;
+                 padding: 3px;
+                 text-align: center;
+                 background-color: gold;
+                 color: black;
+                 text-shadow: 3px 3px 8px maroon;
+                 border: 1px solid black;
+                 margin-right: -6px;
+                 margin-left: -6px;
+                 margin-top: 47%;
+                }
+
+h1::first-line {
+                text-emphasis: '点' black;
+                -webkit-text-emphasis: '点' black;
+               }

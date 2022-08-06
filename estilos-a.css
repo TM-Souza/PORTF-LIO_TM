@@ -1,0 +1,84 @@
+ * {
+    box-sizing: border-box;
+   }
+
+   body{
+        background-image: url("imagens/560896.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+       }
+
+   .nav_menu {
+              overflow: hidden;
+              background-color: black;
+              margin-right: -8px;
+              margin-left: -8px;
+              margin-top: -6px;
+             }
+
+  .nav_menu a{
+              float: left;
+              display: block;
+              color: gold;
+              padding: 10px 10px;
+              text-decoration: overline;
+            }
+
+  .nav_menu a:hover{
+                    background-color: white;
+                    color: darkred;
+                    }
+
+     .header {
+              float: left;
+              background-color: gold;
+              color: black;
+              padding: 3px;
+              text-align: center;
+              text-decoration: none;
+              text-shadow: 2px 2px 8px maroon;
+              margin-right: 10px;
+              margin-left: 3px;
+              margin-top: 4px;
+              border: 1px solid black;
+            }
+
+      .cax {
+             float: center;
+             padding: 3px;
+             text-align: center;
+             text-decoration: none;
+             background-color: gold;
+             text-shadow: 2px 2px 8px maroon;
+             margin-right: 20%;
+             margin-left: 20%;
+             margin-top: 50px;
+             border: 1px solid black;
+           }
+
+    .cont {
+             float: center;
+             padding: 10px;
+             text-align: center;
+             text-decoration: none;
+             background-color: gold;
+             text-shadow: 2px 2px 8px maroon;
+             margin-right: 20%;
+             margin-left: 20%;
+             margin-top: 10px;
+             border: 1px solid black;
+          }
+    
+
+   .footer {
+            float: center;
+            padding: 3px;
+            text-align: center;
+            background-color: gold;
+            color: black;
+            text-shadow: 3px 3px 8px maroon;
+            border: 1px solid black;
+            margin-right: -6px;
+            margin-left: -6px;
+            margin-top: 10%;
+          }
